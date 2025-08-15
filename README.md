@@ -25,6 +25,12 @@ All necessary projects have been migrated to and built with **Visual Studio 2022
 > The Ez Plugin Example has not been tested yet, but it should work.
 
   
+> [!TIP]  
+> See Also:  
+> [SKSE64AE](https://github.com/Ez0n3/SKSE64AE-Plugins)  
+> [SKSE](https://github.com/Ez0n3/SKSE-Plugins)  
+
+  
 [Back to top](#skse64-plugins)  
   
 ## Construction:  
