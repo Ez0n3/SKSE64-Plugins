@@ -10,18 +10,23 @@
   
 Updated: **August 15, 2025**  
   
+This repo contains Plugins for Skyrim Special Edition - SKSE64, including a Plugin Example (**Status: Untested**).  
+  
 **SKSE64** is an SDK created by [Ian Patterson](https://github.com/ianpatt), which extends the functionality of **Skyrim Special Edition** for mod authors.  
 The original SDK used for building the SKSE64 EXE can be found here: [SKSE64](https://skse.silverlock.org/)   
 Using SKSE64 in your mod will then make SKSE64 a **Dependency** which you must must inform your users of and provide a link to.  
   
-This repo contains Plugins for Skyrim Special Edition - SKSE64, including a Plugin Example (**Status: Untested**).  
-  
-This mirror of the SDK is currently set to support Skyrim Special Edition runtime: **1.5.97.0 (0x01050610)** - SKSE64 build: **0.2.0.20**, other versions will need to be manually configured.  
+This mirror of the SDK is currently set to support Skyrim Special Edition runtime version: **1.5.97.0** - SKSE64 version: **0.2.0.20**, other versions will need to be manually configured.  
 It has also been pre-configured to build **Plugins** and is not intended for building the full EXE (Core and Loader).  
   
 All necessary projects have been migrated to and built with **Visual Studio 2022 (v143)**, which can be downloaded here: [Visual Studio 2020](https://visualstudio.microsoft.com/downloads/)   
+  
+> [!IMPORTANT]  
+> The Ez Plugin Example has not been tested yet, but it should work.
 
-
+  
+[Back to top](#skse64-plugins)  
+  
 ## Construction:  
   
 To build plugins, open "SKSE64-Plugins/skse64_plugins" and then open the plugin folder you want to build. EG: **ez_skse64_plugin_example**.  
@@ -57,7 +62,9 @@ bLoadDebugInformation=1
 bEnableProfiling=0  
 sDefaultLogOverlay=Papyrus  
 ```
-
+  
+[Back to top](#skse64-plugins)  
+  
 ## Integration:  
   
 Integrating the example plugin with Skyrim Special Edition involves creating a new Plugin Script which interfaces with the plugin dll.  
@@ -93,7 +100,9 @@ Event OnInit()
 EndEvent  
 ```
  * Use the PapyrusCompiler.exe to compile the 2 newly created Scripts into .pex files.
-
+  
+[Back to top](#skse64-plugins)  
+  
 ## Duplication:  
   
 Duplicating the plugin example to make your own plugin is quite easy if you follow these steps:  
@@ -124,7 +133,7 @@ System.Guid.NewGuid().ToString().ToUpper()
  * Replace "ProjectGuid" with the GUID you generated above, this must be unique to the project.  
  * Replace "ProjectName" and "RootNamespace" to your new plugins "short" name. EG:  
 ```
-    <ProjectGuid>{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}</ProjectGuid>  
+    <ProjectGuid>{11111111-2222-3333-4444-555555555555}</ProjectGuid>  
     <ProjectName>my_cool_new_plugin</ProjectName>  
     <RootNamespace>my_cool_new_plugin</RootNamespace>  
 ```
@@ -149,9 +158,12 @@ Select your new "my_cool_new_plugin.vcxproj" or "my_cool_new_plugin_lean.vcxproj
 Select a Configuration (Debug or Release) and then Build the solution to test it.  
 After completion, open the ./Builds/Configuration/ folder and there should be your new dll file. EG: **my_cool_new_plugin.dll**  
   
+[Back to top](#skse64-plugins)  
+  
 ## Donation:  
   
 If you enjoy and/or find this content useful, consider [buying me a coffee!](https://www.paypal.com/donate/?hosted_button_id=757K44LRCMVRW) :coffee:  
   
+[Back to top](#skse64-plugins)
 
 
