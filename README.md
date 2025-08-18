@@ -8,18 +8,20 @@
   
 ## Description:  
   
-Updated: **August 15, 2025**  
+Updated: **August 18, 2025**  
   
 This repo contains Plugins for Skyrim Special Edition - SKSE64, including a Plugin Example (**Status: Untested**).  
   
-**SKSE64** is an SDK created by [Ian Patterson](https://github.com/ianpatt), which extends the functionality of **Skyrim Special Edition** for mod authors.  
-The original SDK used for building the SKSE64 EXE can be found here: [SKSE64](https://skse.silverlock.org/)   
-Using SKSE64 in your mod will then make SKSE64 a **Dependency** which you must must inform your users of and provide a link to.  
+ * **SKSE64** is an SDK created by [Ian Patterson](https://github.com/ianpatt), which extends the functionality of **Skyrim Special Edition** for mod authors.  
+ * The original SDK used for building the SKSE64 EXE can be found here: [SKSE64](https://skse.silverlock.org/)   
+ * Using SKSE64 in your mod will then make SKSE64 a **Dependency** which you must must inform your users of and provide a link to ([SKSE64](https://www.nexusmods.com/skyrimspecialedition/mods/30379?tab=files)).  
   
 This mirror of the SDK is currently set to support Skyrim Special Edition runtime version: **1.5.97.0** - SKSE64 version: **0.2.0.20**, other versions will need to be manually configured.  
 It has also been pre-configured to build **Plugins** and is not intended for building the full EXE (Core and Loader).  
   
-All necessary projects have been migrated to and built with **Visual Studio 2022 (v143)**, which can be downloaded here: [Visual Studio 2020](https://visualstudio.microsoft.com/downloads/)   
+All necessary projects have been migrated to and built with **Visual Studio 2022 (v143)**, which can be downloaded here: [Visual Studio 2020](https://visualstudio.microsoft.com/downloads/)  
+  
+The highest version of VS officially supported before it was abandoned for CMake, is Visual Studio 2019 (v142). Building Plugins with v143 is **experimental**, but functioning.  
   
 > [!IMPORTANT]  
 > The Ez Plugin Example has not been tested yet, but it should work.
