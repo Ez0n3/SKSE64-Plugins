@@ -8,7 +8,7 @@
   
 ## Description:  
   
-Updated: **August 19, 2025**  
+Updated: **August 20, 2025**  
   
 This repo contains Plugins for Skyrim Special Edition - SKSE64, including a Plugin Example (**Status: Untested**).  
   
@@ -22,6 +22,8 @@ It has also been pre-configured to build **Plugins** and is not intended for bui
 All necessary projects have been migrated to and built with **Visual Studio 2022 (v143)**, which can be downloaded here: [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)  
   
 The highest version of VS officially supported before it was abandoned for CMake, is Visual Studio 2019 (v142). Building Plugins with v143 is **experimental**, but functioning.  
+> [!TIP]  
+> Using [GitHub Desktop](https://desktop.github.com/download/) can make downloading and updating repositories a much simpler process.
   
 > [!IMPORTANT]  
 > The Ez Plugin Example has not been tested yet, but it should work.
